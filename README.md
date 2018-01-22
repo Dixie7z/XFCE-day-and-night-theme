@@ -30,6 +30,6 @@ README https://github.com/KeithDHedger/Xfce-Theme-Manager/blob/master/README
 xfconf-query -c xfce4-desktop -l | grep "last-image$"
 to find out what is your monitor.
 
-5.Then use
+5. Then use
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/[Monitor]/workspace0/last-image -s PATH_OF_NEW_IMAGE
 to change wallpaper.
