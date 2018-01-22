@@ -1,0 +1,13 @@
+ light ()  {
+xfce-theme-manager --theme=Arc-Flatabulous --wmborder=Arc-Flatabulous --controls=Arc-Flatabulous --panel-style=1 --panel=2 --panel-alpha=0
+xfce-theme-manager --icons=Numix-Circle
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s /home/dixie7z/Pictures/max-light.jpg
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor1/workspace0/last-image -s /home/dixie7z/Pictures/max-light1.jpg
+}
+
+dark () {
+xfce-theme-manager --theme=Arc-Flatabulous-Dark --wmborder=Arc-Flatabulous-Darker --controls=Arc-Flatabulous-Darker --panel-style=0 --panel=2 --panel-alpha=0
+xfce-theme-manager --icons=Numix-Circle
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s /home/dixie7z/Pictures/max-dark.png
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor1/workspace0/last-image -s /home/dixie7z/Pictures/chloe-dark.jpg
+}
