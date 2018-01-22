@@ -7,13 +7,13 @@ You can switch themes and wallpapers from a terminal in XFCE.
 [Name of command] ()  {
 xfce-theme-manager --theme=[Themes] --wmborder=[Window Borders] --controls=[Controls]
 xfce-theme-manager --icons=[Icons]
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/[Monitor]/workspace0/last-image -s
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/[Monitor]/workspace0/last-image -s PATH_OF_NEW_IMAGE
 }
 
 [Name of command] () {
 xfce-theme-manager --theme=[Themes] --wmborder=[Window Borders] --controls=[Controls]
 xfce-theme-manager --icons=[Icons]
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/[Monitor]/workspace0/last-image -s
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/[Monitor]/workspace0/last-image -s PATH_OF_NEW_IMAGE
 }
 ```
 
