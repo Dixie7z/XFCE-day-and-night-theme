@@ -33,3 +33,5 @@ to find out what is your monitor.
 5. Then use
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/[Monitor]/workspace0/last-image -s PATH_OF_NEW_IMAGE
 to change wallpaper.
+
+6. Put this in your .bashrc
